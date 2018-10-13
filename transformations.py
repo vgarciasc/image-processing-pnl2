@@ -23,8 +23,8 @@ def twirl(input_img, xc, yc, rmax, theta):
 
     theta = radians(theta)
 
-    for x_linha in range(1, width-1):
-        for y_linha in range(1, height-1):
+    for x_linha in range(0, width):
+        for y_linha in range(0, height):
             dx = x_linha - xc
             dy = y_linha - yc
             r = sqrt(dx*dx + dy*dy)
