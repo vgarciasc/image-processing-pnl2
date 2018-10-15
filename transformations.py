@@ -35,7 +35,7 @@ def twirl(input_img, xc, yc, rmax, theta):
             
             if r >= rmax:
                 output_pixels[x_linha, y_linha] = input_pixels[x_linha, y_linha]
-            elif x > 1 and x < width - 1 and y > 1 and y < height - 1:
+            elif x > 0 and x < width - 1 and y > 0 and y < height - 1:
                 output_pixels[x_linha, y_linha] = linear_interpolate(input_pixels, x, y)
             else:
                 output_pixels[x_linha, y_linha] = (0, 0, 0)
