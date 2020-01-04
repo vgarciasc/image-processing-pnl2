@@ -1,5 +1,5 @@
 # image-processing-pnl2
-Trabalhos de Processamento de Imagens
+Image processing class assignments (2018/2).
 
 ## Assignment #1
 
